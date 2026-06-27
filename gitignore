@@ -1,0 +1,37 @@
+# ── Build outputs ─────────────────────────────────────────────
+build/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+ludo
+ludo.exe
+
+# ── CMake ─────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+_deps/
+
+# ── IDE / Editor folders ─────────────────────────────────────
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.idea/
+*.iml
+
+# ── OS junk ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Game save files (don't commit personal playtest saves) ────
+ludo_save.txt
+*.sav
